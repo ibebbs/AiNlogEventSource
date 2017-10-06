@@ -119,11 +119,11 @@ _Note: I have purposfully made as few changes to auto-generated files as possibl
 
 When the above is run, the program enters a state of perpetually writing events from the "Microsoft-ApplicationInsights-Data" EventSource to the EventFlow outputs. This can be seen in the console output here:
 
-![Console output](./Images/Console Output.png)
+![Console output](https://raw.githubusercontent.com/ibebbs/AiNlogEventSource/master/Images/Console%20Output.png)
 
 And the (local) ApplicationInsights search tool shown here:
 
-![Application Insights Search](./Images/Application Insights Search.png)
+![Application Insights Search](https://raw.githubusercontent.com/ibebbs/AiNlogEventSource/master/Images/Application%20Insights%20Search.png)
 
 ## Investigation
 
@@ -134,7 +134,7 @@ By cloning EventFlow and building a debug version of Microsoft.Diagnostics.Event
 
 This can be seen in the call stack here:
 
-![Call stack](./Images/Call Stack.png)
+![Call stack](https://raw.githubusercontent.com/ibebbs/AiNlogEventSource/master/Images/Call%20Stack.png)
 
 This sequence of events ceases to occur in any of the following conditions:
 
